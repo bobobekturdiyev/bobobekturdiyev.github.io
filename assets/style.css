@@ -1,0 +1,197 @@
+/*
+Author: Bobobek Turdiev
+Template name: Resume
+2017 IUT University
+*/
+
+body{
+    background-color: #eee;
+}
+.top{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #424242;
+    width: 1200px;
+    height:50px;
+    background-color: #424242;
+    position: relative;
+   
+
+}
+
+.head{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #525252;
+    width: 1200px;
+    height:250px;
+    background-color: #525252;
+
+}
+
+.head h1, h3{
+    color: white;
+    font-family: Myriad Pro;
+    text-align: center;
+    padding-top:5px
+}
+
+.logo{
+    width:150px;
+   margin: auto;
+   z-index: 100;
+   margin-top: 50px;
+   
+}
+
+.white{
+    width: 960px;
+    margin: auto;
+    height: auto;
+    border: 1px solid silver;
+    background-color: #ffffff;
+    margin-top: 15px;
+}
+
+.social{
+    width: 100%;
+    border: 0px solid red;
+    margin-top: 100px;
+    height: auto;
+}
+
+.icon{
+    width: 90px;
+    display: block;
+    border: 0px solid black;
+    margin: auto;
+}
+
+.white p{
+    padding-top: 35px; 
+    padding: 15px;
+    color: #4d4d4d;
+    font-family: Myriad Pro;
+    line-height: 35px;
+}
+
+.white p::selection{
+    color: white;
+    background-color: black;
+}
+
+
+.left{
+    border: 0px solid red;
+    width: 300px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    }
+    
+    .right{
+    border: 0px solid red;
+    width: 630px;
+    float: right;
+     margin-bottom: 30px;
+    }
+
+.left p{
+    line-height: 0px;
+}
+
+.left h3{
+    color: black;
+    text-align: left;
+    padding-left: 15px
+}
+
+.right h3{
+    color: black;
+    text-align: center;
+    padding-left: 15px
+}
+
+.left a{
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #2D82D7;
+}
+
+.left a:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #2D82D7;
+}
+
+.footer{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    background-color: #424242;
+}
+
+.footer p, a{
+    color: white;
+    text-align: center;
+}
+
+.top ul li{
+    list-style: none;
+    color: white;
+    font-family: Myriad Pro;
+    padding-left: 50px;
+    display: inline-block;
+    
+}
+
+.top li:hover{
+    text-decoration: underline;
+}
+
+.film{
+    border: 0px solid red;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    margin-top: 25px
+}
+
+.f_image{
+    border: 0px solid green;
+    width: 166px;
+    height: 250px;
+    margin: 20px;
+    padding: 0;
+    box-shadow: #333333 0px 1px 8px;
+    float: left;
+}
+
+.f_detail{
+     border: 0px solid green;
+    width: 710px;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 0;
+    float: right;
+}
+
+.f_detail h2{
+    padding-left: 45px
+}
+.f_detail ul li{
+    color: #333;
+    padding:5px ; margin:0;
+    list-style: none;
+    font-size: 20px;
+    font-family: Myriad Pro;
+}
+
+.f_detail p{
+    padding-left: 45px
+;    font-family: Myriad Pro;
+}
